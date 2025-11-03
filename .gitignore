@@ -1,1 +1,15 @@
-.exe
+# Arquivos de Sistema e IDEs (Recomendado)
+.DS_Store
+*.swp
+.vscode/
+
+# Binários e Objetos do Compilador C/C++
+# Ignora todos os executáveis gerados
+*.exe
+# Ignora executáveis Unix/Linux/macOS (como 'mochila' sem extensão)
+mochila
+# Ignora arquivos objeto
+*.o
+# Ignora outros arquivos de build comuns
+*.out
+*.a
