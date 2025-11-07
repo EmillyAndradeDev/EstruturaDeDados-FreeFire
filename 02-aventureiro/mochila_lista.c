@@ -123,10 +123,10 @@ void removerItemLista() {
 }
 
 void listarItensLista() {
-    printf("\n======= Mochila com LISTA ENCAD. (Estrutura Dinamica) =======\n");
+    printf("\n------- Mochila com LISTA ENCAD. (Estrutura Dinamica) -------\n");
     if (cabeca == NULL) {
         printf("A mochila (Lista Encadeada) esta vazia.\n");
-        printf("============================================================\n");
+        printf("------------------------------------------------------------\n");
         return;
     }
     
